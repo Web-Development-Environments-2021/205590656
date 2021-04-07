@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style> 
+    input[type=button], input[type=submit]{
+      background-color: #af4c99;
+      border: none;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+    </style>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/css/emoji.css" rel="stylesheet">
+  <style> 
+    #grad1 {
+      height: 200px;
+      background-color: #cccccc;
+      background-image: linear-gradient(red, yellow);
+    }
+  </style>
 <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
+  
 <div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
+    <a href="#about">About Me</a> |
+    <a href="#photos">My Photos</a> |
+    <a href="#playlist">My song</a> |
+    <a href="#like">Like</a> |
+    <a href="#qrcoder">QR code</a> |
+    <a href="#spa">Q&A</a> |
+    <a href="#contact">Contact Me</a> 
 </div>
-		  
 <section id="about" class="section">
 <br/>
 <br/>
 <br/>
+<h1><b>About me</b></h1>
+<span><h2><b>ליז ברמוכה</b></h2></span>
+<span>אני אמא לחמישה וסבתא לארבעה נכדים</span>
 <br/>
+<span>עובדת כעצמאית בחנות למוצרי אלקטרוניקה</span>
 <br/>
+<span>התחביבים העיקריים שלי הם ספורט, אפייה וטיולים ברחבי הארץ</span>
 <br/>
+בדרך כלל אני רצה עשרה קילומטרים אך זה יכול להגיע גם ל21 קילומטר
 <br/>
-<h1><b>about me</b></h1>
-<span><b>Liz barmocha</b></span>
+בכל סוף שבוע אני אופה לפחות עוגה אחת ללא סיבה מיוחדת
 <br/>
-<br/>
-<span>A mom for five and a grandmother for four</span>
-<br/>
-<span>Work at electronic store</span>
-<br/>
-<span>My hobbies are running, baking and travel in our country</span>
-<br/>
-Usually, I run for 10 kilometers and sometimes even 21 kilometers
-<br/>
-Every weekend I bake at least one cake 
-<br/>
-I was and know almost every singel place in Israel
+טיילתי בהמון מקומות בארץ ובכל מקום ביקרתי מספר פעמים 
 <br/>
 <br/>
 </section>
@@ -44,7 +59,7 @@ I was and know almost every singel place in Israel
 <section id="photos" class="section">
 <br/>
 <br/>
-<h1><b>my photos</b></h1>
+<h1><b>My photos</b></h1>
 <br/>
 <img src=pic1.jpg width=300 height=400 />	
 <img src=pic2.jpg width=300 height=400 />	
@@ -62,7 +77,7 @@ I was and know almost every singel place in Israel
 <section id="playlist" class="section">
 <br/>
 <br/>
-<h1><b>my playlist</b></h1>
+<h1><b>My song</b></h1>
 <br/>
 <br/>
 <br/>
@@ -76,7 +91,7 @@ I was and know almost every singel place in Israel
 <section id="like" class="section">
 <br/>
 <br/>
-<h1><b>give me a like</b></h1>
+<h1><b>Give me a like</b></h1>
 <br/>
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="RbbVN07C"></script>
@@ -85,42 +100,39 @@ I was and know almost every singel place in Israel
 <div class="fb-like" data-href="https://www.facebook.com/hakiryatgatiyot" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 <br/>
 <br/>
-<br/>
-<br/>
-
-<br/>
-<br/>
-<br/>
 </section>
 
 <section id="qrcoder" class="section">
 <br/>
 <br/>
-<h1><b>scan my code</b></h1>
+<h1><b>Scan my code</b></h1>
 <br/>
 <br/>
-<img src= qr_p.jpg width=300 height=300 />	
+<img src= qr_p.jpg width=250 height=250 />	
 <br/>
 </section>
 
 <section id="spa" class="section">
 <br/>
 <br/>
+<h1><b>Q&A</b></h1>
+<br/>
+web1 , web2, web3 ההבדלים בין
+<br/>
+ מתאפיין בעיקר כאתרי אינטרנט סטטיים , משמשים לרוב מעט משתמשים והתוכן מונגש ממערכת קבצים הנשמרת בשרת web1  
+<br/>
+מדובר באתרים אינטרקטיבים - כלומר מגיבים לקלט המשתמש, מאפשר שימוש של הרבה משתמשים יחד, לרוב קיימת גישה לאינטרנט ומאפשר איחזור ומיון של מידע web2 
+<br/>
+ מתייחס לאתרים המשתמשים בבינה מלאכותית, עיבוד של המידע, קישוריות גבוהה הנעזרת גם במידע המסגרת, שימוש בגרפיקה תלת מימדית web3
 <br/>
 <br/>
+"בתרחיש השימוש "מפת רמזור הקורונה לפי ערים  
 <br/>
+נוכל לקבל מידע עבור כל עיר  web1 באתר של 
 <br/>
+נוכל לראות קישורים למידע נוסף הקשור ולקבל מפה אינטקטיבית web2 באתר המבוסס 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
+נוכל לראות גרפיקה תלת מימדית של המפה web3 באתר המבוסס  
 <br/>
 <br/>
 <br/>
@@ -129,26 +141,29 @@ ans
 <section id="contact" class="section">
 <br/>
 <br/>
+<h1><b>Contact me</b></h1>
 <br/>
 <br/>
+<form id=”EmailForm”  method="post" action="mailto:barmocha@post.bgu.ac.il">
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
+<textarea name="message"> </textarea>
+</br>
+  
+<input type="submit">
+
 <br/>
 </section>
 
+
+  
+  
+  
+</form>
+  
+  <script src="lib/js/config.js"></script>
+  <script src="lib/js/util.js"></script>
+  <script src="lib/js/jquery.emojiarea.js"></script>
+  <script src="lib/js/emoji-picker.js"></script>
 
 <script type="text/javascript">
 $(function(){
